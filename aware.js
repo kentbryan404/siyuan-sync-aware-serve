@@ -5,7 +5,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = 7777;
+const PORT = 80;
 
 app.use(cors());
 // 使用 body-parser 中间件解析 JSON 请求体
